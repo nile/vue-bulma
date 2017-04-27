@@ -16,7 +16,7 @@
     <transition name="fade">
     <modal v-show="isModal" @closemodal="closeModal()" :mode="modalinfo.mode" :title="modalinfo.title"" :content="modalinfo.content" :width="modalinfo.width" :ok="modalinfo.ok"" :cancel="modalinfo.cancel"></modal>
     </transition>
-  </div>
+  </section>
 </template>
 <script>
 // vuex全局数据
